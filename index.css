@@ -1,0 +1,10 @@
+﻿@font-face {
+    font-family: "seagram";
+    src: url("./seagram.ttf");
+}
+
+body {
+	font-family: "seagram";
+	text-align: center;
+	background-color: black;
+}
