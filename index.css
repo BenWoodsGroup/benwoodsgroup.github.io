@@ -6,5 +6,65 @@
 body {
 	font-family: "seagram";
 	text-align: center;
-	background-color: black;
+	background-color: white;
+	background-image: url("./images/bg.png");
+	background-position: 100% 115%;
+	background-size: 105%;
+	margin: 0;
+}
+
+.center {
+	position: absolute;
+	left: 48%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.top-left {
+	position: absolute;
+	left: 25%;
+	top: 20%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.middle-left {
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.bottom-left {
+	position: absolute;
+	left: 25%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.top-right {
+	position: absolute;
+	left: 70%;
+	top: 20%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.middle-right {
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.bottom-right {
+	position: absolute;
+	left: 70%;
+	top: 82%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
 }
