@@ -1,6 +1,6 @@
 ﻿@font-face {
-    font-family: "seagram";
-    src: url("./seagram.ttf");
+    font-family: "ancient";
+    src: url("./fonts/ancient.ttf");
 }
 
 body {
@@ -13,12 +13,40 @@ body {
 	margin: 0;
 }
 
+.dialog {
+	height: 1em;
+	background: #1c1c1c;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px white, 0 0 0 12px #251C00;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 20px 20px 20px 20px;
+	text-transform: uppercase;
+	word-spacing: 3px;
+	width: 18vw;
+  }
+
+.title {
+	position: absolute;
+	left: 48%;
+	top: 26%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	font-size: 3vw;
+	font-family: "ancient";
+	background: #000;
+	cursor: pointer;
+
+}
+
 .center {
 	position: absolute;
 	left: 48%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	padding: 10px;
+	z-index: 1;
 }
 
 .top-left {
@@ -68,3 +96,4 @@ body {
 	transform: translate(-50%, -50%);
 	padding: 10px;
 }
+
