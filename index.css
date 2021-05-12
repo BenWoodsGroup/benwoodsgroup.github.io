@@ -13,18 +13,6 @@ body {
 }
 
 
-.title {
-	position: absolute;
-	left: 48%;
-	top: 26%;
-	transform: translate(-50%, -50%);
-	padding: 10px;
-	font-size: 3vw;
-	font-family: "ancient";
-	background: #000;
-	cursor: pointer;
-
-}
 
 .center {
 	position: absolute;
@@ -90,7 +78,27 @@ img {
 
   @media only screen and (max-width: 600px) {
 	img {
-		max-width: 50%;
+		max-width: 55%;
+	}
+
+	.center {
+		position: absolute;
+		left: 50%;
+		top: 35%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+
+	.top-left {
+		position: absolute;
+		left: 50%;
+		top: 65%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
 	}
   }
 
