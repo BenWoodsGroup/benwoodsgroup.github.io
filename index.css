@@ -38,23 +38,23 @@ body {
 .top-left {
 	position: absolute;
 	left: 25%;
-	top: 40%;
+	top: 33%;
 	transform: translate(-50%, -50%);
 	padding: 10px;
 }
 
 .middle-left {
 	position: absolute;
-	left: 20%;
-	top: 60%;
+	left: 10%;
+	top: 56%;
 	transform: translate(-50%, -50%);
 	padding: 10px;
 }
 
 .bottom-left {
 	position: absolute;
-	left: 25%;
-	top: 80%;
+	left: 28%;
+	top: 64%;
 	transform: translate(-50%, -50%);
 	padding: 10px;
 }
