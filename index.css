@@ -76,7 +76,7 @@ img {
 	height: auto;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
 	img {
 		max-width: 55%;
 	}
@@ -85,7 +85,7 @@ img {
 		position: absolute;
 		left: 50%;
 		top: 35%;
-		width: 100%;
+		width: 1250%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
 		z-index: 1;
@@ -93,8 +93,58 @@ img {
 
 	.top-left {
 		position: absolute;
-		left: 50%;
-		top: 65%;
+		left: 25%;
+		top: 80%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+
+	.middle-left {
+		position: absolute;
+		left: 75%;
+		top: 80%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+
+	.bottom-left {
+		position: absolute;
+		left: 25%;
+		top: 105%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+
+	.top-right {
+		position: absolute;
+		left: 75%;
+		top: 105%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+
+	.middle-right {
+		position: absolute;
+		left: 25%;
+		top: 140%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+
+	.bottom-right {
+		position: absolute;
+		left: 75%;
+		top: 140%;
 		width: 80%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
