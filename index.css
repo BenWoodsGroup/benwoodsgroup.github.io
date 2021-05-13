@@ -84,7 +84,7 @@ img {
 	.center {
 		position: absolute;
 		left: 50%;
-		top: 33%;
+		top: 40%;
 		width: 125%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
@@ -114,7 +114,7 @@ img {
 	.bottom-left {
 		position: absolute;
 		left: 25%;
-		top: 105%;
+		top: 108%;
 		width: 80%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
@@ -124,7 +124,7 @@ img {
 	.top-right {
 		position: absolute;
 		left: 75%;
-		top: 105%;
+		top: 108%;
 		width: 80%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
@@ -134,7 +134,7 @@ img {
 	.middle-right {
 		position: absolute;
 		left: 25%;
-		top: 140%;
+		top: 145%;
 		width: 80%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
@@ -144,7 +144,7 @@ img {
 	.bottom-right {
 		position: absolute;
 		left: 75%;
-		top: 140%;
+		top: 145%;
 		width: 80%;
 		transform: translate(-50%, -50%);
 		padding: 10px;
